@@ -99,8 +99,8 @@ body {
 
 /* event-section */
 .event-section {
-    /* background-image: linear-gradient(to bottom, #FF69B4, #eec0c8); */
-    background-color: pink;
+    background-image: linear-gradient(to bottom, #FF69B4, #eec0c8);
+    /* background-color: pink; */
     font-size: 30px;
     text-align: center;
     font-weight: bold;

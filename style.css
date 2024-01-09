@@ -97,6 +97,26 @@ body {
 
 /* welcome section */
 
+/* event-section */
+.event-section {
+    background-image: linear-gradient(to bottom, #FF69B4, #eec0c8);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 100px;
+    border-radius: 30px;
+}
+
+.event-secion-btn {
+    padding: 15px 25px;
+    background-color: #F00;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+/* event-section */
+
 /* coming soon section */
 
 .comming-soon-container {
@@ -248,7 +268,21 @@ body {
     width: 600px;
 }
 
+.call-image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+}
 
+.call-image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+}
 
 .footer-btn {
     background-color: #F00;

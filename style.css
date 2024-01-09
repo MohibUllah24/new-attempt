@@ -1,0 +1,262 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* banner section */
+
+.banner-text {
+    color: white;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 80px;
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+.banner-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    /* background-image: url("./images/Banner.png"); */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("./images/Banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+/* banner section */
+
+/* category section */
+.category-section {
+    text-align: center;
+}
+
+.category-section h1 {
+    font-size: 88px;
+    color: #F00;
+}
+
+.category-section h3 {
+    font-size: 28px;
+    color: #F00;
+}
+
+.category-section h2 {
+    font-size: 48px;
+}
+
+/* category section */
+
+/* welcome section */
+
+.welcome-image {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url("images/Vectorrr.png"); */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("./images/Vectorrr.png");
+    display: flex;
+    align-items: center;
+    margin: 100px 0px;
+    border-radius: 30px;
+}
+
+.welcome-text {
+    color: white;
+    padding-left: 100px;
+    max-width: 600px;
+}
+
+.welcome-text h1 {
+    font-size: 60px;
+}
+
+.welcome-detail {
+    font-size: 20px;
+}
+
+.join-btn {
+    padding: 15px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.join-btn:hover {
+    background-color: #ffbf00;
+}
+
+/* welcome section */
+
+/* coming soon section */
+
+.comming-soon-container {
+    display: flex;
+    gap: 40px;
+    margin: 80px 0;
+}
+
+.comming-soon-first {
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.comming-soon-first h2 {
+    color: #F00;
+}
+
+.comming-soon-first h1 {
+    font-size: 40px;
+}
+
+.comming-soon-first p {
+    font-size: 20px;
+}
+
+
+.comming-soon-second {
+    border-color: #F00;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 100%;
+    padding: 25px;
+}
+
+.comming-soon-third {
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.comming-soon-third h1 {
+    color: #F00;
+    font-size: 40px;
+}
+
+.comming-soon-third p {
+    font-size: 20px;
+}
+
+/* coming soon section */
+
+
+/* portfolio section */
+.portfolio-subtitle {
+    color: #F00;
+}
+
+.portfolio-title {
+    font-size: 50px;
+}
+
+.portfolio-detail {
+    max-width: 800px;
+    font-size: 20px;
+}
+
+.portfolio-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-image img {
+    width: 385px;
+
+}
+
+.portfolio-image img:hover {
+    background-color: black;
+    opacity: 70%;
+}
+
+/* portfolio section */
+
+/* newletter container */
+.newsletter-container {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.newsletter-container h1 {
+    font-size: 40px;
+}
+
+.newsletter-container p {
+    font-size: 20px;
+}
+
+.input-btn {
+    font-size: 20px;
+    padding: 15px;
+    border: 5px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.btn {
+    background-color: #F00;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    font-weight: bold;
+
+}
+
+/* newletter container */
+
+/* footer section */
+.footer-container {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.footer-container-first {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.footer-container-second {
+    text-align: center;
+}
+
+.footer-container-third {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.footer-detail {
+    width: 600px;
+}
+
+
+
+.footer-btn {
+    background-color: #F00;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/* footer section */

@@ -170,6 +170,65 @@ body {
 
 /* coming soon section */
 
+/* holiday section */
+.holiday-section-container {
+    margin: 80px 0px;
+}
+
+.holiday-section-heading {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+.holiday-section-title {
+    font-size: 60px;
+}
+
+.holiday-section-heading p {
+    font-size: 20px;
+}
+
+.holiday-text {
+    color: red;
+}
+
+.holiday-section-subheading {
+    font-size: 20px;
+}
+
+.holiday-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.holiday-section-image1 {
+    position: absolute;
+    z-index: 20;
+
+}
+
+.holiday-section-image2 {
+    position: relative;
+}
+
+.holiday-section-image4 {
+    position: relative;
+    left: 600px;
+    z-index: 20;
+}
+
+.holiday-section-image3 {
+
+    z-index: 10;
+}
+
+.holiday-section-image3 img {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* holiday section */
 
 /* portfolio section */
 .portfolio-subtitle {
